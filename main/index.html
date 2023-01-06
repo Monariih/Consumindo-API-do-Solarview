@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../view/style.css">
+</head>
+<body>
+    <header id="cabeçalho">
+        <!--<h1>CORDEIRO ₢</h1>-->    
+        <a id="cordeiro_logo">                 
+        <img id="foto_cd" src="https://cordeiro.solarview.com.br/img/cordeiro-logo.png" alt="" srcset="">
+        </a>
+    </header>
+
+    <main>
+        <div class="pesquisa">
+            <form action="" method="post">
+                <input type="text" name="" id="empresa_pedido" placeholder="Nome da empresa/Nº do Pedido">
+                <select id="filtro">
+                    <option value="">Filtrar dados</option>
+                    <option value="1">Codigo do pedido</option>
+                    <option value="2">Nome do pedido</option>
+                    <option value="3">Status do pedido</option>
+                </select>   
+                
+                <input type="submit" value="filtro" id="btn_filtro">
+            </form>
+        </div>
+
+        <div class="saida_Busca">
+            <p id="codigo_pedido">Codigo </p>
+            <p id="status_pedido">Status</p>
+            <p id="nome_pedido">Nome do pedido</p>
+            <p id="info"></p>
+        </div>
+
+        <div class="btn_Busca">
+            <button onclick="getData()" id="butao">Busca</button>
+        </div>
+    </main>
+    
+    <footer id="final">
+        <img id="foto_cs" src="https://corsolar.com.br/wp-content/uploads/2022/03/corsolar-logo.png">
+    </footer>
+
+</body>
+<script src="../function/main.js"></script>
+</html>

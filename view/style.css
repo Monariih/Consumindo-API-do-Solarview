@@ -1,0 +1,143 @@
+#foto_cd{
+    margin-left: 15px;
+}
+#cabeçalho{
+    background-color: rgb(180, 183, 185);
+    border-radius: 10px;
+    width: 100%;
+    height: 60px;
+    padding-top: 10px;
+    box-shadow: 2px 2px rgb(66, 66, 66);
+    transition: all 0.2s;
+}
+#cabeçalho:hover{
+    -webkit-transform: scale(0.5);
+    transform: scale(1.02);
+}
+#btn_filtro{
+    width: 80px;
+    height: 27px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+#btn_filtro:hover{
+    background-color: cornsilk;
+    color: black;
+}
+#itens_filtro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#filtro{
+    width: 150px;
+    height: 30.5px;
+    border-radius: 4px;
+}
+#empresa_pedido{
+    width: 150px;
+    height: 27px;
+    border-radius: 4px;
+    border: none;
+}
+.pesquisa{
+    background-color: rgb(77, 77, 199);
+    margin-top: 5px;
+    margin-bottom: 7px;
+    border-radius: 10px;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    box-shadow: 2px 2px 1.5px 1.5px rgb(157, 146, 255);
+    transition: all 0.2s;
+    justify-content: center;
+}
+.pesquisa:hover{
+    -webkit-transform: scale(0.5);
+    transform: scale(1.02);
+}
+.saida_Busca{
+    background-color: rgb(0, 187, 0);
+    border-radius: 10px;
+    width: 100%;
+    min-height: 200px;
+    max-height: auto;
+    display: flex;
+    align-items: center;
+    box-shadow: 2px 2px 1.5px 1.5px rgb(50, 109, 50);
+    transition: all 0.2s;
+}
+.saida_Busca:hover{
+    -webkit-transform: scale(0.5);
+    transform: scale(1.02);
+}
+.btn_Busca{
+    background-color: yellow;
+    border-radius: 10px;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+    box-shadow: 2px 2px 1.5px 1.5px rgb(108, 109, 50);
+    transition: all 0.2s;
+}
+.btn_Busca:hover{
+    -webkit-transform: scale(0.5);
+    transform: scale(1.02);
+}
+#butao{
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+#butao:hover{
+    background-color: cornsilk;
+    color: black;
+}
+#final{
+    background-color: rgb(180, 183, 185);
+    border-radius: 10px;
+    width: 100%;
+    height: 130px;
+    padding-top: 10px;
+    margin-top: 8px;
+    box-shadow: 2px 2px rgb(66, 66, 66);
+    transition: all 0.2s;
+    display: flex;
+    margin-right: -40px;
+    align-items: center;
+}
+#final:hover{
+    -webkit-transform: scale(0.5);
+    transform: scale(1.02);
+}
+#foto_cs{
+    margin-left: 15px;
+}
+#codigo_pedido{
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+#status_pedido{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
+}
+#nome_pedido{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
+}
+#info{
+    width: 0%;
+    height: 0px;
+}
